@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star } from 'lucide-react';
@@ -11,34 +10,42 @@ const Home: React.FC = () => {
       <section className="relative h-[85vh] flex items-center bg-gray-900">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&q=80&w=1920" 
-            alt="Professional garment manufacturing facility showing high-quality apparel production floor and design workstations" 
+            src="https://images.unsplash.com/photo-1524492459466-417166164228?q=80&w=2000&auto=format&fit=crop" 
+            alt="Hawa Mahal Jaipur - Global sourcing hub" 
             className="w-full h-full object-cover opacity-50"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-          <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-              Crafting Quality Apparel with Global Sourcing Excellence
-            </h1>
-            <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light">
-              From design to delivery — we simplify apparel manufacturing for brands worldwide. Expert sourcing across Asia & USA.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link 
-                to="/contact" 
-                className="bg-accent text-white px-10 py-4 rounded-sm font-bold text-center tracking-widest hover:bg-white hover:text-gray-900 transition-all duration-300"
-              >
-                GET A QUOTE
-              </Link>
-              <Link 
-                to="/services" 
-                className="bg-transparent border border-white text-white px-10 py-4 rounded-sm font-bold text-center tracking-widest hover:bg-white hover:text-gray-900 transition-all duration-300"
-              >
-                OUR SERVICES
-              </Link>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white w-full">
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-12">
+            <div className="max-w-2xl">
+              <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight uppercase tracking-tighter">
+                Crafting Quality Apparel with Global Sourcing Excellence
+              </h1>
+              <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed font-light">
+                From design to delivery — we simplify apparel manufacturing for brands worldwide. Expert sourcing across Asia & USA for over 45 years.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link 
+                  to="/contact" 
+                  className="bg-accent text-white px-10 py-4 rounded-sm font-bold text-center tracking-widest hover:bg-white hover:text-gray-900 transition-all duration-300"
+                >
+                  GET A QUOTE
+                </Link>
+                <Link 
+                  to="/services" 
+                  className="bg-transparent border border-white text-white px-10 py-4 rounded-sm font-bold text-center tracking-widest hover:bg-white hover:text-gray-900 transition-all duration-300"
+                >
+                  OUR SERVICES
+                </Link>
+              </div>
+            </div>
+
+            {/* Experience Badge */}
+            <div className="hidden lg:flex bg-accent p-12 flex-col items-center justify-center text-center shadow-2xl rounded-sm min-w-[280px]">
+              <span className="text-8xl font-black block leading-none mb-1">45+</span>
+              <span className="text-lg font-bold uppercase tracking-[0.2em] leading-tight">Years<br/>Experience</span>
             </div>
           </div>
         </div>
@@ -85,16 +92,16 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured Products */}
+      {/* Featured Products - Updated to show more items */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-          <h2 className="text-3xl font-extrabold mb-4 uppercase tracking-tighter">Our Categories</h2>
-          <p className="text-gray-500 max-w-2xl mx-auto font-light">Versatile, high-quality manufacturing capabilities across all garment sectors.</p>
+          <h2 className="text-3xl font-extrabold mb-4 uppercase tracking-tighter">Product Categories</h2>
+          <p className="text-gray-500 max-w-2xl mx-auto font-light">Versatile, high-quality manufacturing capabilities for your most essential apparel lines.</p>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {PRODUCTS_DATA.slice(0, 3).map((product) => (
-            <div key={product.id} className="relative group overflow-hidden h-[400px]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {PRODUCTS_DATA.slice(0, 6).map((product) => (
+            <div key={product.id} className="relative group overflow-hidden h-[400px] rounded-sm shadow-lg">
               <img src={product.image} alt={product.category} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
               <div className="absolute bottom-0 left-0 p-8 w-full">
@@ -106,13 +113,18 @@ const Home: React.FC = () => {
             </div>
           ))}
         </div>
+        <div className="text-center mt-12">
+          <Link to="/products" className="inline-flex items-center gap-2 text-accent font-bold uppercase tracking-widest border-b-2 border-accent pb-2 hover:text-gray-900 hover:border-gray-900 transition-all">
+            Browse Full Catalog <ArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-12">
           {TESTIMONIALS.map((t) => (
-            <div key={t.id} className="bg-gray-50 p-10 relative">
+            <div key={t.id} className="bg-white p-10 relative border border-gray-100 shadow-sm">
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 text-accent fill-accent" />)}
               </div>

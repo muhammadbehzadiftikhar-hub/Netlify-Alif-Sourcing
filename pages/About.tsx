@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Target, Eye, Shield, Leaf, Heart, Zap } from 'lucide-react';
 
@@ -19,21 +18,21 @@ const About: React.FC = () => {
           <div>
             <h2 className="text-3xl font-extrabold mb-8 uppercase tracking-tighter">A Legacy of Excellence in Sourcing</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Alif Design And Sourcing USA is a full-service textile & apparel sourcing company dedicated to helping brands bring their vision to life. With years of experience in global sourcing, product development, and quality management, we bridge the gap between creative design and reliable manufacturing.
+              Alif Design And Sourcing USA is a full-service textile & apparel sourcing company dedicated to helping brands bring their vision to life. With over 45 years of experience in global sourcing, product development, and quality management, we bridge the gap between creative design and reliable manufacturing.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Our presence in key manufacturing hubs allows us to offer real-time insights and unparalleled control over the production process. We pride ourselves on transparency, ethical practices, and a commitment to sustainable growth for our partners.
+              Our presence in key manufacturing hubs like Jaipur and Dhaka allows us to offer real-time insights and unparalleled control over the production process. We pride ourselves on transparency, ethical practices, and a commitment to sustainable growth for our partners.
             </p>
           </div>
           <div className="relative group">
             <img 
-              src="https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?auto=format&fit=crop&q=80&w=1200" 
-              alt="Our Facility" 
+              src="https://images.unsplash.com/photo-1524492459466-417166164228?q=80&w=1200&auto=format&fit=crop" 
+              alt="Hawa Mahal - A symbol of textile heritage in Jaipur" 
               className="rounded-sm shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 w-full h-auto"
             />
-            <div className="absolute -bottom-6 -right-6 bg-accent text-white p-8 hidden md:block">
-              <span className="text-4xl font-extrabold block">15+</span>
-              <span className="text-xs font-bold uppercase tracking-widest">Years Experience</span>
+            <div className="absolute -bottom-6 -right-6 bg-accent text-white p-10 hidden md:block shadow-2xl z-10">
+              <span className="text-6xl font-black block leading-none mb-1">45+</span>
+              <span className="text-sm font-bold uppercase tracking-[0.2em] leading-tight">Years<br/>Experience</span>
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
@@ -17,7 +16,7 @@ const Footer: React.FC = () => {
               </div>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              Empowering apparel brands worldwide through transparent, ethical, and efficient sourcing and design solutions.
+              Empowering apparel brands worldwide through transparent, ethical, and efficient sourcing and design solutions for over 45 years.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-accent transition-colors"><Linkedin className="w-5 h-5" /></a>
@@ -56,22 +55,22 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0" />
-                <span>200 YALE ST ROSLYN HEIGHTS NY 11577 U.S.A.</span>
+                <span>231 W. 39th Street, Suite #805<br/>New York, NY 10018</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent shrink-0" />
-                <span>+1 (212) 555-0198</span>
+                <span>+1 (917) 261-2038</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
-                <span>contact@alifdesignusa.com</span>
+                <span>alif@a-d-s-usa.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
-          <p>© 2026 Alif Design And Sourcing USA. All rights reserved.</p>
+          <p>© 2026 Alif Design And Sourcing USA, Inc. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

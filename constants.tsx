@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   Scissors, 
@@ -60,33 +59,63 @@ export const SERVICES_DATA = [
 export const PRODUCTS_DATA = [
   {
     id: '1',
-    category: 'Knitwear',
-    image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&q=80&w=1200',
-    description: 'Soft, breathable t-shirts, hoodies, and sweatshirts.'
+    category: 'Cargo Shorts',
+    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&q=80&w=800',
+    description: 'Durable, high-performance utility shorts with reinforced stitching.'
   },
   {
     id: '2',
-    category: 'Woven Apparel',
-    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=1200',
-    description: 'Premium dress shirts, trousers, and casual button-downs.'
+    category: "Blank Tee's",
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=800',
+    description: 'Premium heavyweight cotton blanks available in multiple GSM options.'
   },
   {
     id: '3',
-    category: 'Activewear',
-    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=1200',
-    description: 'High-performance moisture-wicking gear for athletes.'
+    category: 'Denim',
+    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&q=80&w=800',
+    description: 'Authentic selvedge and stretch denim for high-end fashion collections.'
   },
   {
     id: '4',
-    category: 'Outerwear',
-    image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&q=80&w=1200',
-    description: 'Durable jackets, coats, and protective layers.'
+    category: "Hoodie's",
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800',
+    description: 'Superior fleece-lined hoodies with premium ribbing and custom hardware.'
   },
   {
     id: '5',
-    category: 'Accessories',
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=1200',
-    description: 'Custom caps, premium bags, and stylish scarves.'
+    category: "Polo",
+    image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&q=80&w=800',
+    description: 'Classic and modern fit polos in pique and jersey fabrics.'
+  },
+  {
+    id: '6',
+    category: "T-Shirt",
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&q=80&w=800',
+    description: 'High-quality graphic and basic t-shirts with various necklines.'
+  },
+  {
+    id: '7',
+    category: "Legging",
+    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&q=80&w=800',
+    description: 'Performance-driven activewear leggings with moisture-wicking technology.'
+  },
+  {
+    id: '8',
+    category: "Denim Shorts",
+    image: 'https://images.unsplash.com/photo-1591348113547-6ad87019375a?auto=format&fit=crop&q=80&w=800',
+    description: 'Fashionable distressed and clean-cut denim shorts for seasonal lines.'
+  },
+  {
+    id: '9',
+    category: "Flannel Shirts",
+    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=800',
+    description: 'Soft, brushed cotton flannel shirts available in custom yarn-dye checks.'
+  },
+  {
+    id: '10',
+    category: "Joggers",
+    image: 'https://images.unsplash.com/photo-1552642986-ccb41e7059e7?auto=format&fit=crop&q=80&w=800',
+    description: 'Premium loungewear joggers with tapered fits and elasticized cuffs.'
   }
 ];
 
