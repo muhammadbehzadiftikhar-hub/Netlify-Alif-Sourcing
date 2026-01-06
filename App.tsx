@@ -20,6 +20,7 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
+    /* Removed the future prop from Router to resolve the type error as it's not supported by the HashRouter component's props in this environment */
     <Router>
       <div className="flex flex-col min-h-screen">
         <ScrollToTop />
