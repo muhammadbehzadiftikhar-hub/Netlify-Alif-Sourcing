@@ -25,13 +25,13 @@ const About: React.FC = () => {
               Alif Design And Sourcing USA is a full-service textile & apparel sourcing company dedicated to helping brands bring their vision to life. With over 45 years of experience in global sourcing, product development, and quality management, we bridge the gap between creative design and reliable manufacturing.
             </p>
             <p className="text-gray-600 leading-relaxed text-lg">
-              Our presence in key manufacturing hubs like Jaipur and Dhaka allows us to offer real-time insights and unparalleled control over the production process. We pride ourselves on transparency, ethical practices, and a commitment to sustainable growth for our partners.
+              Our presence in key manufacturing hub Dhaka allows us to offer real-time insights and unparalleled control over the production process. We pride ourselves on transparency, ethical practices, and a commitment to sustainable growth for our partners.
             </p>
           </div>
           <div className="relative group order-1 lg:order-2">
             <div className="relative overflow-hidden rounded-sm shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1590050752117-23a9d7fc217d?q=80&w=1200&auto=format&fit=crop" 
+                src="https://i.postimg.cc/VkStth8j/factory.png" 
                 alt="Hawa Mahal - A symbol of textile heritage in Jaipur" 
                 className="grayscale hover:grayscale-0 transition-all duration-700 w-full h-[500px] object-cover"
               />

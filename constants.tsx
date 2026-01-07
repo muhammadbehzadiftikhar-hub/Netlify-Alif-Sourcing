@@ -77,7 +77,7 @@ export const PRODUCTS_DATA = [
   },
   {
     id: '4',
-    category: "Hoodie's",
+    category: "Hoodies",
     image: 'https://i.postimg.cc/g0k5rYFJ/Hoodie_s.jpg',
     description: 'Superior fleece-lined hoodies with premium ribbing and custom hardware.'
   },
