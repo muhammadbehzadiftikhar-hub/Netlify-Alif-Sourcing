@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Loader2, User, Briefcase, MessageSquare, Globe, Hash, Clock } from 'lucide-react';
 
@@ -189,45 +190,51 @@ const Contact: React.FC = () => {
               {/* Executive Contact Cards */}
               <div>
                 <h3 className="text-xl font-bold uppercase tracking-widest mb-8 border-b-2 border-accent inline-block pb-2">
-                  Executive Direct
+                  Executive Leadership
                 </h3>
                 <div className="space-y-6">
                   {/* Mir Hassan Ali Card */}
-                  <div className="group bg-gray-50 p-8 border border-gray-100 rounded-sm hover:bg-accent hover:text-white transition-all duration-300 shadow-sm hover:shadow-xl">
-                    <div className="flex items-center gap-5 mb-6">
-                      <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
-                        <User className="w-8 h-8 text-accent" />
+                  <div className="group bg-white p-8 border-2 border-gray-100 rounded-sm hover:border-accent transition-all duration-300 shadow-sm hover:shadow-2xl">
+                    <div className="flex items-center gap-6 mb-6">
+                      <div className="w-20 h-20 bg-gray-900 rounded-sm flex items-center justify-center shadow-lg group-hover:bg-accent transition-colors">
+                        <User className="w-10 h-10 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-black text-xl uppercase tracking-tighter">Mir Hassan Ali</h4>
-                        <p className="text-accent group-hover:text-white/80 text-[10px] font-black uppercase tracking-[0.2em]">Vice President</p>
+                        <h4 className="font-black text-2xl uppercase tracking-tighter text-gray-900">MIR HASSAN ALI</h4>
+                        <p className="text-accent text-[12px] font-black uppercase tracking-[0.25em]">Vice President</p>
                       </div>
                     </div>
-                    <a href="tel:+19179306599" className="flex items-center gap-4 text-sm font-bold tracking-tight">
-                      <div className="p-2 bg-accent/10 rounded-full group-hover:bg-white/20">
-                        <Phone className="w-4 h-4 text-accent group-hover:text-white" />
-                      </div>
-                      +1 (917) 930-6599
-                    </a>
+                    <div className="space-y-3">
+                      <a href="tel:+19179306599" className="flex items-center gap-4 text-base font-bold text-gray-800 hover:text-accent transition-colors">
+                        <div className="p-2 bg-accent/5 rounded-full">
+                          <Phone className="w-5 h-5 text-accent" />
+                        </div>
+                        +1 (917) 930-6599
+                      </a>
+                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest pl-11">Direct Executive Line</p>
+                    </div>
                   </div>
 
                   {/* Usman Card */}
-                  <div className="group bg-gray-50 p-8 border border-gray-100 rounded-sm hover:bg-accent hover:text-white transition-all duration-300 shadow-sm hover:shadow-xl">
-                    <div className="flex items-center gap-5 mb-6">
-                      <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
-                        <User className="w-8 h-8 text-accent" />
+                  <div className="group bg-white p-8 border-2 border-gray-100 rounded-sm hover:border-accent transition-all duration-300 shadow-sm hover:shadow-2xl">
+                    <div className="flex items-center gap-6 mb-6">
+                      <div className="w-20 h-20 bg-gray-900 rounded-sm flex items-center justify-center shadow-lg group-hover:bg-accent transition-colors">
+                        <User className="w-10 h-10 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-black text-xl uppercase tracking-tighter">Usman</h4>
-                        <p className="text-accent group-hover:text-white/80 text-[10px] font-black uppercase tracking-[0.2em]">Executive Management</p>
+                        <h4 className="font-black text-2xl uppercase tracking-tighter text-gray-900">USMAN</h4>
+                        <p className="text-accent text-[12px] font-black uppercase tracking-[0.25em]">Executive Management</p>
                       </div>
                     </div>
-                    <a href="tel:+13474253170" className="flex items-center gap-4 text-sm font-bold tracking-tight">
-                      <div className="p-2 bg-accent/10 rounded-full group-hover:bg-white/20">
-                        <Phone className="w-4 h-4 text-accent group-hover:text-white" />
-                      </div>
-                      +1 (347) 425-3170
-                    </a>
+                    <div className="space-y-3">
+                      <a href="tel:+13474253170" className="flex items-center gap-4 text-base font-bold text-gray-800 hover:text-accent transition-colors">
+                        <div className="p-2 bg-accent/5 rounded-full">
+                          <Phone className="w-5 h-5 text-accent" />
+                        </div>
+                        +1 (347) 425-3170
+                      </a>
+                      <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest pl-11">Global Operations Line</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -235,13 +242,13 @@ const Contact: React.FC = () => {
               {/* Office Details */}
               <div className="space-y-8 bg-gray-900 text-white p-10 rounded-sm shadow-2xl relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-accent/20 rounded-full -mr-16 -mt-16 blur-3xl"></div>
-                <h3 className="text-xl font-bold uppercase tracking-widest mb-6 relative z-10">Global Headquarters</h3>
+                <h3 className="text-xl font-bold uppercase tracking-widest mb-6 relative z-10 text-accent">Global Headquarters</h3>
                 
                 <div className="space-y-8 relative z-10">
                   <div className="flex gap-4">
                     <MapPin className="w-6 h-6 text-accent shrink-0" />
                     <div>
-                      <p className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Location</p>
+                      <p className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Corporate Address</p>
                       <p className="text-sm font-light leading-relaxed">
                         Alif Design & Sourcing USA, inc.<br/>
                         231 W. 39th Street, Suite #805<br/>
@@ -250,16 +257,9 @@ const Contact: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex gap-4">
-                    <Phone className="w-6 h-6 text-accent shrink-0" />
-                    <div>
-                      <p className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Office Line</p>
-                      <p className="text-sm font-bold">+1 (917) 261-2038</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-4">
                     <Mail className="w-6 h-6 text-accent shrink-0" />
                     <div>
-                      <p className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Official Inquiry</p>
+                      <p className="text-[10px] font-black text-accent uppercase tracking-widest mb-1">Electronic Correspondence</p>
                       <p className="text-sm font-bold text-accent hover:underline cursor-pointer">alif@a-d-s-usa.com</p>
                     </div>
                   </div>

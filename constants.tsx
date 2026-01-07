@@ -60,31 +60,31 @@ export const PRODUCTS_DATA = [
   {
     id: '1',
     category: 'Cargo Shorts',
-    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/x1bVnjQQ/Cargo-shorts.jpg',
     description: 'Durable, high-performance utility shorts with reinforced stitching.'
   },
   {
     id: '2',
     category: "Blank Tee's",
-    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/DwcH2SN5/Blank_Shirt.jpg',
     description: 'Premium heavyweight cotton blanks available in multiple GSM options.'
   },
   {
     id: '3',
     category: 'Denim',
-    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/W4bKt2L4/Denim.jpg',
     description: 'Authentic selvedge and stretch denim for high-end fashion collections.'
   },
   {
     id: '4',
     category: "Hoodie's",
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/g0k5rYFJ/Hoodie_s.jpg',
     description: 'Superior fleece-lined hoodies with premium ribbing and custom hardware.'
   },
   {
     id: '5',
     category: "Polo",
-    image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/MHccgZxK/Polo.jpg',
     description: 'Classic and modern fit polos in pique and jersey fabrics.'
   },
   {
@@ -96,25 +96,25 @@ export const PRODUCTS_DATA = [
   {
     id: '7',
     category: "Legging",
-    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/g0nnxkXZ/Leggings.png',
     description: 'Performance-driven activewear leggings with moisture-wicking technology.'
   },
   {
     id: '8',
     category: "Denim Shorts",
-    image: 'https://images.unsplash.com/photo-1591348113547-6ad87019375a?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/cCVKWq1p/Denim_shorts.jpg',
     description: 'Fashionable distressed and clean-cut denim shorts for seasonal lines.'
   },
   {
     id: '9',
     category: "Flannel Shirts",
-    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/2yPqYp8N/Flannel_Shirts.jpg',
     description: 'Soft, brushed cotton flannel shirts available in custom yarn-dye checks.'
   },
   {
     id: '10',
     category: "Joggers",
-    image: 'https://images.unsplash.com/photo-1552642986-ccb41e7059e7?auto=format&fit=crop&q=80&w=800',
+    image: 'https://i.postimg.cc/gjfwp9kF/Joggers.jpg',
     description: 'Premium loungewear joggers with tapered fits and elasticized cuffs.'
   }
 ];

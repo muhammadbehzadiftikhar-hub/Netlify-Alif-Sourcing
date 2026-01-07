@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star } from 'lucide-react';
@@ -93,7 +94,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Featured Products */}
+      {/* Featured Products - Showing All for visibility */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
           <h2 className="text-3xl font-extrabold mb-4 uppercase tracking-tighter">Product Categories</h2>
@@ -101,7 +102,7 @@ const Home: React.FC = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {PRODUCTS_DATA.slice(0, 6).map((product) => (
+          {PRODUCTS_DATA.map((product) => (
             <div key={product.id} className="relative group overflow-hidden h-[400px] rounded-sm shadow-lg">
               <img src={product.image} alt={product.category} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
@@ -113,11 +114,6 @@ const Home: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="text-center mt-12">
-          <Link to="/products" className="inline-flex items-center gap-2 text-accent font-bold uppercase tracking-widest border-b-2 border-accent pb-2 hover:text-gray-900 hover:border-gray-900 transition-all">
-            Browse Full Catalog <ArrowRight className="w-5 h-5" />
-          </Link>
         </div>
       </section>
 
